@@ -1,0 +1,86 @@
+2025-05-08 21:21:34 - __main__ - INFO - Reading data from: s3a://hungits-graduation-project/data/UserBehavior.csv
+2025-05-08 21:21:40 - __main__ - INFO - Data read successfully.
+2025-05-08 21:21:40 - __main__ - INFO - Starting data cleaning...
+2025-05-08 21:21:40 - __main__ - INFO - Data cleaning completed.
+2025-05-08 21:21:40 - __main__ - INFO - Writing cleaned data to: s3a://hungits-graduation-project/data_cleaned/
+2025-05-08 21:48:27 - __main__ - INFO - Reading data from: s3a://hungits-graduation-project/data/UserBehavior.csv
+2025-05-08 21:58:47 - __main__ - INFO - Reading data from: s3a://hungits-graduation-project/data/UserBehavior.csv
+2025-05-08 21:58:52 - __main__ - INFO - Data read successfully.
+2025-05-08 21:58:52 - __main__ - INFO - Starting data cleaning...
+2025-05-08 21:58:52 - __main__ - INFO - Data cleaning completed.
+2025-05-08 21:58:52 - __main__ - INFO - Writing cleaned data to: s3a://hungits-graduation-project/data_cleaned/
+2025-05-08 22:40:16 - __main__ - INFO - Data written successfully.
+2025-05-15 22:21:40 - __main__ - INFO - Reading data from: data/raw/input.csv
+2025-05-15 22:32:19 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 22:38:29 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 22:39:11 - __main__ - INFO - Data read successfully.
+2025-05-15 22:39:11 - __main__ - INFO - Starting data cleaning...
+2025-05-15 22:44:47 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 22:44:51 - __main__ - INFO - Data read successfully.
+2025-05-15 22:44:51 - __main__ - INFO - Starting data cleaning...
+2025-05-15 22:46:49 - __main__ - INFO - Data cleaning completed.
+2025-05-15 22:46:49 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-15 22:49:21 - __main__ - INFO - Data written successfully.
+2025-05-15 22:49:21 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-15 23:03:23 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 23:03:28 - __main__ - INFO - Data read successfully.
+2025-05-15 23:03:28 - __main__ - INFO - Starting data cleaning...
+2025-05-15 23:10:40 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 23:10:43 - __main__ - INFO - Data read successfully.
+2025-05-15 23:10:43 - __main__ - INFO - Starting data cleaning...
+2025-05-15 23:12:09 - __main__ - INFO - Data cleaning completed.
+2025-05-15 23:12:09 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-15 23:14:24 - __main__ - INFO - Data written successfully.
+2025-05-15 23:14:24 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-15 23:29:57 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 23:30:03 - __main__ - INFO - Data read successfully.
+2025-05-15 23:30:03 - __main__ - INFO - Starting data cleaning...
+2025-05-15 23:31:51 - __main__ - INFO - Data cleaning completed.
+2025-05-15 23:31:51 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-15 23:34:08 - __main__ - INFO - Data written successfully.
+2025-05-15 23:34:08 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-15 23:42:54 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 23:43:01 - __main__ - INFO - Data read successfully.
+2025-05-15 23:43:01 - __main__ - INFO - Starting data cleaning...
+2025-05-15 23:44:49 - __main__ - INFO - Data cleaning completed.
+2025-05-15 23:44:49 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-15 23:47:09 - __main__ - INFO - Data written successfully.
+2025-05-15 23:47:09 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-15 23:59:44 - __main__ - INFO - Reading data from: data/raw/UserBehavior.csv
+2025-05-15 23:59:50 - __main__ - INFO - Data read successfully.
+2025-05-15 23:59:50 - __main__ - INFO - Starting data cleaning...
+2025-05-16 00:01:37 - __main__ - INFO - Data cleaning completed.
+2025-05-16 00:01:37 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-16 00:03:58 - __main__ - INFO - Data written successfully.
+2025-05-16 00:03:58 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-16 00:06:24 - __main__ - INFO - EDA, RFM, and K-means completed.
+2025-05-16 02:15:52 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-16 02:15:55 - __main__ - INFO - Data read successfully.
+2025-05-16 02:15:55 - __main__ - INFO - Starting data cleaning...
+2025-05-16 02:15:59 - __main__ - INFO - Data cleaning completed.
+2025-05-16 02:15:59 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-16 02:16:02 - __main__ - INFO - Data written successfully.
+2025-05-16 02:16:02 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-16 02:19:11 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-16 02:19:16 - __main__ - INFO - Data read successfully.
+2025-05-16 02:19:16 - __main__ - INFO - Starting data cleaning...
+2025-05-16 02:19:20 - __main__ - INFO - Data cleaning completed.
+2025-05-16 02:19:20 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-16 02:19:22 - __main__ - INFO - Data written successfully.
+2025-05-16 02:19:22 - __main__ - INFO - Running EDA, RFM, and K-means...
+2025-05-16 02:19:24 - __main__ - INFO - EDA, RFM, and K-means completed.
+2025-05-21 00:17:52 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-21 00:17:56 - __main__ - INFO - Data read successfully.
+2025-05-21 00:17:56 - __main__ - INFO - Starting data cleaning...
+2025-05-21 00:21:32 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-21 00:21:35 - __main__ - INFO - Data read successfully.
+2025-05-21 00:21:35 - __main__ - INFO - Starting data cleaning...
+2025-05-21 00:23:00 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-21 00:23:03 - __main__ - INFO - Data read successfully.
+2025-05-21 00:23:03 - __main__ - INFO - Starting data cleaning...
+2025-05-21 00:25:00 - __main__ - INFO - Reading data from: data/raw/sample.csv
+2025-05-21 00:25:03 - __main__ - INFO - Data read successfully.
+2025-05-21 00:25:03 - __main__ - INFO - Starting data cleaning...
+2025-05-21 00:25:03 - __main__ - INFO - Data cleaning completed.
+2025-05-21 00:25:03 - __main__ - INFO - Writing cleaned data to: data/processed
+2025-05-21 00:25:09 - __main__ - INFO - Data written successfully.
