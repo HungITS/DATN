@@ -1,12 +1,12 @@
-# User Behavior Tracking Project
+# Real-Time User Behavior Data Analysis System
 
 ## Mục tiêu:
 
-Thu thập hành vi người dùng từ BigCommerce API, xử lý bằng Spark, gửi Kafka, huấn luyện model đề xuất, và deploy pipeline toàn bộ.
+xây dựng một hệ thống phân tích dữ liệu hành vi người dùng sử dụng các công nghệ dữ liệu lớn hiện đại.
 
 ## Công nghệ sử dụng:
 
-- Python (ETL, API)
-- Docker, Kafka, Spark
-- AWS S3/RDS
+- Python
+- Docker,Spark
+- AWS S3
 - Conda environment
