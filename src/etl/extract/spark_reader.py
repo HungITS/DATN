@@ -1,0 +1,21 @@
+# from pyspark.sql import SparkSession
+
+# def read_from_s3(spark: SparkSession, path: str):
+#     print(f"Reading data from: {path}")
+#     column_names = ["User_ID", "Product_ID", "Category_ID", "Behavior", "Timestamp"]
+#     return spark.read.option("header", False).csv(path).toDF(*column_names)
+
+from pyspark.sql import SparkSession
+import os
+
+def read_from_local(spark: SparkSession, input_path: str):
+
+    local_path = f"file://{os.path.abspath(input_path)}"
+    column_names = ["User_ID", "Product_ID", "Category_ID", "Behavior", "Timestamp"]
+    df_ori =  spark.read.option("header", False).csv(local_path).toDF(*column_names)
+    unique_users_df = df_ori.select("User_ID").distinct()
+    # Sample 5% of unique users
+    sampled_users_df = df_ori.select("User_ID").distinct().sample(withReplacement=False, fraction=0.05, seed=42)
+    df_5M = df_ori.join(sampled_users_df, on="User_ID", how="inner")
+
+    return df_5M
