@@ -1,12 +1,51 @@
-# Real-Time User Behavior Data Analysis System
+# 📊 Customer Behavior & RFM Analysis
 
-## Mục tiêu:
+## 📌 Overview
+This project analyzes customer behavior using transactional data and applies the RFM (Recency, Frequency, Monetary) model to evaluate customer engagement and value.
+The goal is to segment customers and extract actionable insights to support business decision-making.
 
-xây dựng một hệ thống phân tích dữ liệu hành vi người dùng sử dụng các công nghệ dữ liệu lớn hiện đại.
+---
 
-## Công nghệ sử dụng:
+## 🎯 Objectives
+- Analyze customer behavior patterns
+- Measure engagement using RFM model
+- Segment customers based on activity and value
+- Provide data-driven insights
 
+---
+
+## 🛠️ Technologies
 - Python
-- Docker,Spark
-- AWS S3
-- Conda environment
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+---
+
+## 🔄 Workflow
+
+### 1. Data Preparation
+- Load and clean dataset
+- Convert datetime fields
+- Handle missing values
+
+### 2. Feature Engineering
+- Calculate:
+  - Recency (time since last activity)
+  - Frequency (number of transactions)
+  - Monetary (total spending)
+
+### 3. RFM Analysis
+- Score customers based on RFM metrics
+- Segment customers into groups:
+  - High-value customers
+  - Potential customers	
+  - Churn Risk customers
+
+### 4. Exploratory Data Analysis
+- Analyze customer behavior patterns
+- Identify trends and distributions
+
+### 5. Visualization
+- Plot RFM distributions
+- Visualize customer segments
+
